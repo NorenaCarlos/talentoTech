@@ -4,106 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About me</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>About me</h1>
-  <p>This page is used to introduce myself and show you what I have done in my career.</p>
-  <p>My name is Carlos Norena and I'm a mechatronics engineer. I'm from Colombia</p>
-  <img src="myPhoto.jpeg" alt="myPhoto" width="500" style="border-radius: 250;">
-  <a href="https://www.linkedin.com/in/carlos-andrés-noreña-vargas-7a35a42ab/">LinkedIn</a>
-  <h2>Hobbies</h2>
-  <ul>
-    <li>Chess</li>
-    <li>Reading</li>
-    <li>Programming</li>
-  </ul>
-  <h2>task to be done</h2>
-  <ol>
-    <li>To make projects</li>
-    <li>To make exams</li>
-    <li>To make homeworks</li>
-  </ol>
-  <table>
-    <thead>
-      <tr>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
-        <th>Sunday</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <ol>
-            <li>To make projects</li>
-            <li>To make exams</li>
-            <li>To make homeworks</li>
-          </ol>
-        </td>
-        <td>
-          <ol>
-            <li>To make projects</li>
-            <li>To make exams</li>
-            <li>To make homeworks</li>
-          </ol>
-        </td>
-        <td>
-          <ol>
-            <li>To make projects</li>
-            <li>To make exams</li>
-            <li>To make homeworks</li>
-          </ol>
-        </td>
-        <td>
-          <ol>
-            <li>To make projects</li>
-            <li>To make exams</li>
-            <li>To make homeworks</li>
-          </ol>
-        </td>
-        <td>
-          <ol>
-            <li>To make projects</li>
-            <li>To make exams</li>
-            <li>To make homeworks</li>
-          </ol>
-        </td>
-        <td>
-          <ol>
-            <li>To make projects</li>
-            <li>To make exams</li>
-            <li>To make homeworks</li>
-          </ol>
-        </td>
-        <td>
-          <ol>
-            <li>To make projects</li>
-            <li>To make exams</li>
-            <li>To make homeworks</li>
-          </ol>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <h2>Contact</h2>
-  <fieldset>
-    <legend>Contact information</legend>
-    <form action="">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Name">
-      <br>
-      <label for="description">Description</label>
-      <input type="text" placeholder="Describe the issue why you wish contact me">
-      <br>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Email">
-      <br>
-      <button type="submit">Send</button>
-    </form>
-  </fieldset>
+  <header>
+    <h1 id="main-title">About me</h1>
+  </header>
+  <section id="introduction">
+    <p>This page is used to introduce myself and show you what I have done in my career.</p>
+    <p>My name is Carlos Norena and I'm a mechatronics engineer. I'm from Colombia.</p>
+    <img id="profile-photo" src="myPhoto.jpeg" alt="Photo of Carlos Norena">
+    <a id="linkedin-link" href="https://www.linkedin.com/in/carlos-andrés-noreña-vargas-7a35a42ab/" target="_blank">LinkedIn</a>
+  </section>
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul class="list">
+      <li>Chess</li>
+      <li>Reading</li>
+      <li>Programming</li>
+    </ul>
+  </section>
+  <section id="tasks">
+    <h2>Tasks to be done</h2>
+    <ol class="list">
+      <li>To make projects</li>
+      <li>To make exams</li>
+      <li>To make homeworks</li>
+    </ol>
+    <table id="schedule">
+      <thead>
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ol class="task-list">
+              <li>To make projects</li>
+              <li>To make exams</li>
+              <li>To make homeworks</li>
+            </ol>
+          </td>
+          <td>
+            <ol class="task-list">
+              <li>To make projects</li>
+              <li>To make exams</li>
+              <li>To make homeworks</li>
+            </ol>
+          </td>
+          <td>
+            <ol class="task-list">
+              <li>To make projects</li>
+              <li>To make exams</li>
+              <li>To make homeworks</li>
+            </ol>
+          </td>
+          <td>
+            <ol class="task-list">
+              <li>To make projects</li>
+              <li>To make exams</li>
+              <li>To make homeworks</li>
+            </ol>
+          </td>
+          <td>
+            <ol class="task-list">
+              <li>To make projects</li>
+              <li>To make exams</li>
+              <li>To make homeworks</li>
+            </ol>
+          </td>
+          <td>
+            <ol class="task-list">
+              <li>To make projects</li>
+              <li>To make exams</li>
+              <li>To make homeworks</li>
+            </ol>
+          </td>
+          <td>
+            <ol class="task-list">
+              <li>To make projects</li>
+              <li>To make exams</li>
+              <li>To make homeworks</li>
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <fieldset>
+      <legend>Contact information</legend>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <br>
+        <label for="description">Description</label>
+        <textarea id="description" name="description" placeholder="Describe the issue"></textarea>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <br>
+        <button type="submit">Send</button>
+      </form>
+    </fieldset>
+  </section>
 </body>
 </html>
