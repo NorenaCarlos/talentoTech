@@ -1,0 +1,104 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+#main-title {
+  margin: 0;
+}
+
+#introduction {
+  text-align: center;
+  padding: 20px;
+}
+
+#profile-photo {
+  border-radius: 50%;
+  width: 200px;
+  margin: 20px 0;
+}
+
+#linkedin-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#linkedin-link:hover {
+  background-color: #0056b3;
+}
+
+section {
+  margin: 20px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+#schedule {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+#schedule th, #schedule td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+#schedule th {
+  background-color: #007bff;
+  color: white;
+}
+
+#contact {
+  padding: 20px;
+  background-color: #e9ecef;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
